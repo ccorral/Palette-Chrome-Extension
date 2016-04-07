@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<meta name="description" content="A basic template for a Chrome Extension using Twitter Bootstrap 3">
+		<meta name="author" content="Elliot Hesp">
+
+		<title>Palette Color Generator Chrome Extension</title>
+
+		<!-- Scripts -->
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/color-scheme.js"></script>
+
+		<!-- Cascading Style Sheets -->
+		<!-- Latest compiled and minified CSS -->
+		<script src="popup.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link href="css/custom.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="css/rangeslider.css" />
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header navbar-brand"><img src="palette-logo.png">
+			</div>
+		</nav>
+			<div class="row">
+				<div class="title">
+					<h6>Select a Color Variation</h6>
+					<div class="radios">
+							<label class="c-input c-radio">
+							  <input id="radio1" name="radio" type="radio" value="Default" checked="checked">
+							  <span class="c-indicator"></span>
+							  Default
+							</label>
+							<label class="c-input c-radio">
+							  <input id="radio2" name="radio" type="radio" value="Pastel">
+							  <span class="c-indicator"></span>
+							  Pastel
+							</label>
+							<label class="c-input c-radio">
+							  <input id="radio3" name="radio" type="radio" value="Soft">
+							  <span class="c-indicator"></span>
+							  Soft
+							</label>
+							<label class="c-input c-radio">
+							  <input id="radio4" name="radio" type="radio" value="Light">
+							  <span class="c-indicator"></span>
+							  Light
+							</label>
+							<label class="c-input c-radio">
+							  <input id="radio5" name="radio" type="radio" value="Hard">
+							  <span class="c-indicator"></span>
+							  Hard
+							</label>
+							<label class="c-input c-radio">
+							  <input id="radio6" name="radio" type="radio" value="Pale">
+							  <span class="c-indicator"></span>
+							  Pale
+							</label>
+						<div>
+							<h6 class="huevalue">Set the Hue Value</h6>
+				</div>
+				<div class="slider">
+					<label for="fader">0</label>
+					<input type="range" id="ranger" min="1" max="355" step="1"></input>
+					<output for="fader" id="volume">355</output>
+				</div>
+						<div class="card text-xs-center">
+						  <div class="card-header" id="card0"></div>
+						  <div class="card-block">
+						    <p class="text-xs-center" id="hex0"></p>
+						  </div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="card1"></div>
+							<div class="card-block">
+								<p class="text-xs-center" id="hex1"></p>
+							</div>
+						</div>
+						<div class="card text-xs-center">
+							<div class="card-header" id="card2"></div>
+							<div class="card-block">
+								<p class="text-xs-center" id="hex2"></p>
+							</div>
+						</div>
+						<div class="card text-xs-center">
+							<div class="card-header" id="card3"></div>
+							<div class="card-block">
+								<p class="text-xs-center" id="hex3"></p>
+							</div>
+						</div>
+						<div class="card text-xs-center">
+							<div class="card-header" id="card4"></div>
+							<div class="card-block">
+								<p class="text-xs-center" id="hex4"></p>
+							</div>
+						</div>
+					</div>
+			</div>
+  </div>
+	</body>
+</html>

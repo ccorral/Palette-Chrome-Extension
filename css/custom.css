@@ -1,0 +1,123 @@
+/**
+ * Chrome Extension Twitter Bootstrap 3 Template
+ * Custom CSS
+ *
+ */
+
+body, section {
+	text-align: left;		/* Change width and height to own preferences */
+	width: 510px;
+	height: 250px;
+	overflow-x: hidden;
+	background-color:#FDFDFD;
+}
+
+/* Basic style tweaks */
+section { padding: 0px;}
+
+/* Scroll Bar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: red; }
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+		margin-left:33%;
+		margin-top: 2%;
+    /*left: 0;*/
+    /*top: 0;*/
+    /*text-align: center;*/
+    /*margin: auto;*/
+}
+img {
+		height:45px;
+}
+.card-header {
+	height:100px;
+	background-color: #fff;
+	text-align: left;
+	left:0;
+}
+.card {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align: left;
+	width:85px;
+	left:0;
+	margin-left: 2px;
+	margin-top: 22px;
+	/*border-radius: 4px;*/
+	float:left;
+}
+p {
+	text-align: left;
+	margin:0;
+}
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	color:#349C9E;
+	margin-left: 26%;
+}
+.card-block {
+	background-color: #fff;
+	left:0;
+}
+.row {
+	text-align: left;
+	width:500px;
+	margin-left:36px;
+	margin-top: 7.5%;
+	left:0;
+}
+.hextext {
+	text-align:left;
+}
+.btn-primary{
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	background-color: #349C9E;
+	border:0;
+	margin-left:40%;
+	margin-top:2px;
+	margin-bottom: 16px;
+}
+.btn-primary:hover {
+	color:#349C9E;
+  background-color: #fff;
+}
+.text-xs-center {
+	left:0;
+}
+.slider {
+	padding-top: 10px;
+	margin-top:3%;
+	margin-left: 28%;
+}
+.title {
+	padding-top: 50px;
+	margin-left: 0%;
+}
+.ranger {
+	width:300px;
+}
+#volume {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+}
+label {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+}
+.radios {
+	margin-top:5%;
+}
+.huevalue {
+	margin-top:5%;
+	margin-left:30%;
+	color:#349C9E;
+}
